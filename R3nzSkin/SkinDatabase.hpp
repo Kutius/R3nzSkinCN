@@ -90,9 +90,9 @@ public:
 	};
 
 	std::vector<specialSkin> specialSkins{
-		{ FNV("Katarina"), 29, 36, { "Dagger 1", "Dagger 2", "Dagger 3", "Dagger 4", "Dagger 5", "Dagger 6" }},
-		{ FNV("Renekton"), 26, 32, { "Head off", "Head on", "Fins", "Ultimate" } },
-		{ FNV("MissFortune"), 16, 16, { "Scarlet fair", "Zero hour", "Royal arms", "Starswarm" } },
-		{ FNV("Ezreal"), 5, 5, { "Level 1", "Level 2", "Level 3" } }
+		{ FNV("Katarina"), 29, 36, { "匕首1", "匕首2", "匕首3", "匕首4", "匕首 5", "匕首6" }},
+		{ FNV("Renekton"), 26, 32, { "无头盔", "头盔", "鳍片", "终极" } },
+		{ FNV("MissFortune"), 16, 16, { "血色女王", "总攻时刻", "皇家武装", "星辰虫群" } },
+		{ FNV("Ezreal"), 5, 5, { "等级1", "等级2", "等级3" } }
 	};
 };
