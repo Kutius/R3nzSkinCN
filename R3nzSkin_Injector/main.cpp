@@ -19,16 +19,16 @@ int main([[maybe_unused]] array<String^>^ args)
 {
 	std::srand(static_cast<unsigned int>(std::time(nullptr)));
 	Injector::autoUpdate();
-	
+
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	R3nzSkinInjector::R3nzUI form;
 
 	auto thread{ std::thread(Injector::run) };
-	auto screenThread{ gcnew Thread(gcnew ThreadStart(%form, &R3nzSkinInjector::R3nzUI::updateScreen)) };
+	auto screenThread{ gcnew Thread(gcnew ThreadStart(% form, &R3nzSkinInjector::R3nzUI::updateScreen)) };
 	screenThread->Start();
 
-	Application::Run(%form);
+	Application::Run(% form);
 
 	thread.detach();
 	screenThread->Abort();
