@@ -8,10 +8,8 @@
    [![Issues](https://img.shields.io/github/issues/R3nzTheCodeGOD/R3nzSkin.svg?style=plastic)](https://github.com/R3nzTheCodeGOD/R3nzSkin/issues)
    ![Windows](https://github.com/R3nzTheCodeGOD/R3nzSkin/workflows/Windows/badge.svg?branch=main&event=push)
 
-   # **R3nzSkin**
+   # **R3nzSkin Chinese language edition**
 
-   ## Announcement
-   I am currently continuing my military service, and as the place where I am serving is a border region, updates may be delayed or may not arrive.
 
    <img src="https://user-images.githubusercontent.com/58574988/134170370-c827d712-fcc7-432f-b9f8-96678b0c9bf6.gif">
 
