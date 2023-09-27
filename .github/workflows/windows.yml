@@ -20,5 +20,5 @@ jobs:
       uses: actions/upload-artifact@v3.1.3
       with:
         name: R3nzSkin.dll
-        path: D:\a\R3nzSkin\R3nzSkin\R3nzSkin\Release\RiotGamesServers\R3nzSkin.dll
+        path: D:\a\R3nzSkinCN\R3nzSkinCN\R3nzSkin\Release\
             
